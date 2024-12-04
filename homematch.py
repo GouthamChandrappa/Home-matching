@@ -7,7 +7,7 @@ from typing import List, Dict
 
 # Vocareum OpenAI API Configuration
 openai.api_base = "https://openai.vocareum.com/v1"
-openai.api_key = "voc-20890367151266773689311674ba14d68bb69.29998898"  
+openai.api_key = "your-api-key"  
 
 class HomeMatch:
     def __init__(self):
