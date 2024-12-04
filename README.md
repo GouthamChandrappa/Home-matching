@@ -48,6 +48,7 @@ Adjust the output directory path in store_listings() method if needed
 python homematch.py
 ```
 # The application will:
+
 -Generate synthetic real estate listings
 -Store listings in a text file
 -Interactively collect your home preferences
@@ -64,17 +65,20 @@ python homematch.py
 ```
 
 # How It Works:
+
 -Listing Generation: Uses OpenAI to create realistic property listings
 -Preference Collection: Interactive questionnaire to understand buyer needs
 -Semantic Matching: Uses vector embeddings to find the most relevant listings
 -Personalization: Tailors listing descriptions to individual preferences
 
 # Potential Improvements:
+
 -Add more sophisticated filtering
 -Implement persistent storage
 -Enhance AI-driven matching algorithms
 
 # Troubleshooting:
+
 -Ensure OpenAI API key is valid
 -Check internet connectivity
 -Verify all dependencies are installed
