@@ -26,34 +26,34 @@ git clone https://github.com/GouthamChandrappa/Home-matching.git
 cd Home-matching
 ```
 
-Create a virtual environment:
+# Create a virtual environment:
 ```
 conda create -n homematch python=3.10
 conda activate homematch
 ```
-Install dependencies:
+# Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-Set up OpenAI API Key:
+# Set up OpenAI API Key:
 ```
 export OPENAI_API_KEY='your_openai_api_key_here'
 ```
-Configuration
+# Configuration
 Modify openai.api_key in the script with your actual OpenAI API key
 Adjust the output directory path in store_listings() method if needed
 
-Running the Application:
+# Running the Application:
 ```
 python homematch.py
 ```
-The application will:
+# The application will:
 -Generate synthetic real estate listings
 -Store listings in a text file
 -Interactively collect your home preferences
 -Find and personalize matching listings
 
-Dependencies:
+# Dependencies:
 ```
 -chromadb==0.3.21
 -pydantic==1.10.11
@@ -63,18 +63,18 @@ Dependencies:
 -pandas
 ```
 
-How It Works:
+# How It Works:
 -Listing Generation: Uses OpenAI to create realistic property listings
 -Preference Collection: Interactive questionnaire to understand buyer needs
 -Semantic Matching: Uses vector embeddings to find the most relevant listings
 -Personalization: Tailors listing descriptions to individual preferences
 
-Potential Improvements:
+# Potential Improvements:
 -Add more sophisticated filtering
 -Implement persistent storage
 -Enhance AI-driven matching algorithms
 
-Troubleshooting:
+# Troubleshooting:
 -Ensure OpenAI API key is valid
 -Check internet connectivity
 -Verify all dependencies are installed
