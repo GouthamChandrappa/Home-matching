@@ -54,12 +54,14 @@ The application will:
 -Find and personalize matching listings
 
 Dependencies:
+```
 -chromadb==0.3.21
 -pydantic==1.10.11
 -openai
 -sentence-transformers
 -numpy
 -pandas
+```
 
 How It Works:
 -Listing Generation: Uses OpenAI to create realistic property listings
