@@ -1,4 +1,4 @@
-# HomeMatch: AI-Powered Real Estate Matching Application
+# HomeMatch: AI-Powered Personalized Real Estate Agent 
 
 ## Project Overview
 
