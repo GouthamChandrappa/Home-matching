@@ -40,8 +40,8 @@ pip install -r requirements.txt
 export OPENAI_API_KEY='your_openai_api_key_here'
 ```
 # Configuration
-Modify openai.api_key in the script with your actual OpenAI API key
-Adjust the output directory path in store_listings() method if needed
+- Modify openai.api_key in the script with your actual OpenAI API key
+- Adjust the output directory path in store_listings() method if needed
 
 # Running the Application:
 ```
@@ -49,10 +49,10 @@ python homematch.py
 ```
 # The application will:
 
--**Generate synthetic real estate listings
--**Store listings in a text file
--**Interactively collect your home preferences
--**Find and personalize matching listings
+- Generate synthetic real estate listings
+- Store listings in a text file
+- Interactively collect your home preferences
+- Find and personalize matching listings
 
 # Dependencies:
 ```
@@ -65,21 +65,21 @@ python homematch.py
 ```
 
 # How It Works:
--**Listing Generation: Uses OpenAI to create realistic property listings
--**Preference Collection: Interactive questionnaire to understand buyer needs
--**Semantic Matching: Uses vector embeddings to find the most relevant listings
--**Personalization: Tailors listing descriptions to individual preferences
+- Listing Generation: Uses OpenAI to create realistic property listings
+- Preference Collection: Interactive questionnaire to understand buyer needs
+- Semantic Matching: Uses vector embeddings to find the most relevant listings
+- Personalization: Tailors listing descriptions to individual preferences
 
 # Potential Improvements:
--**Add more sophisticated filtering
--**Implement persistent storage
--**Enhance AI-driven matching algorithms
+- Add more sophisticated filtering
+- Implement persistent storage
+- Enhance AI-driven matching algorithms
 
 # Troubleshooting:
 
--**Ensure OpenAI API key is valid
--**Check internet connectivity
--**Verify all dependencies are installed
+- Ensure OpenAI API key is valid
+- Check internet connectivity
+- Verify all dependencies are installed
 
 
 
